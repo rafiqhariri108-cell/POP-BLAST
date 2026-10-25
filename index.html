@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POP BLAST - Sip and Pop! A Little Pop In Every Sip</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Background Bubbles Decoration -->
+  <div class="bg-bubbles" aria-hidden="true">
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+    <div class="bubble b4"></div>
+    <div class="bubble b5"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand">
+        <img src="image/brand/logo.png" alt="Logo Pop Blast" class="nav-logo-img">
+        <span class="brand-name">
+          <span class="text-white">POP</span> <span class="text-cream">BLAST</span>
+        </span>
+      </div>
+
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="#about">Tentang</a>
+          <a href="#produk">Menu</a>
+          <a href="#legalitas">Sertifikasi</a>
+          <a href="#testimoni">Testimoni</a>
+          <a href="#tim">Tim</a>
+        </nav>
+
+        <!-- Tombol Keranjang Belanja -->
+        <a href="#order" class="cart-icon-btn" aria-label="Keranjang Belanja">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge-promo">✨ ALL ITEM 12K ONLY!</span>
+          <h1 class="hero-title">"Sip and Pop - A little pop in every sip"🎉</h1>
+          <p class="hero-subtitle">
+            Pelopor minuman kekinian dengan perpaduan rasa buah yang segar dan sensasi popping boba yang meletus di
+            setiap tegukan, dengan harga ramah kantong mahasiswa!
+          </p>
+          <div class="hero-actions">
+            <a href="#order" class="btn btn-primary">Pesan Sekarang</a>
+            <a href="#produk" class="btn btn-secondary">Lihat Varian Menu</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-product-showcase">
+            <!-- Badge Atas -->
+            <div class="hero-tag tag-top">
+              ❤️ <span class="text-bold-red">Milktea</span> Manis & Sehat
+            </div>
+
+            <!-- Gambar Produk Berdampingan -->
+            <div class="hero-images-group">
+              <img src="image/products/milktea.png" alt="Milktea Pop Blast" class="hero-img img-left">
+              <img src="image/products/sprite.png" alt="Sprite Pop Blast" class="hero-img img-right">
+            </div>
+
+            <!-- Badge Bawah -->
+            <div class="hero-tag tag-bottom">
+              <span class="text-bold-mint">✨ Sprite</span> Sensasi Meletus!
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- About & Mascot Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-card">
+          <div class="about-text">
+            <h2 class="section-title">Kenalan Sama Pop Blast & Pipop! 🍓</h2>
+            <p>
+              Halo Blastist! 👋 <strong>Pop Blast</strong> adalah minuman kekinian yang memadukan kesegaran buah alami
+              dan teh pilihan dengan sensasi meletus <em>popping boba</em> rasa leci dan stroberi. Dikemas dalam kemasan
+              <em>direct-sip re-sealable</em> tanpa sedotan plastik, praktis,dan anti-tumpah!
+            </p>
+            <div class="mascot-box">
+              <img src="image/brand/mascot.png" alt="Maskot Pipop" class="mascot-avatar-img">
+              <div>
+                <h3 class="mascot-title">Maskot Kita: <strong>PIPOP</strong></h3>
+                <p class="mascot-desc">"Si kecil yang penuh kejutan! Siap menemani setiap tegukan Pop Blast dengan
+                  keceriaan, keseruan, dan sensasi rasa yang meledak di mulut!"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Variants Section -->
+    <section id="produk" class="product-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Varian Rasa Pop Blast 🍹</h2>
+          <p class="section-desc">Pilihan rasa favorit mahasiswa, lezat, unik, dan pas di kantong!</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Card 1 -->
+          <div class="product-card">
+            <div class="product-badge">Sweet Drink Series</div>
+            <div class="product-img-wrapper">
+              <img src="image/products/sprite.png" alt="Sprite + Popping Boba" class="product-img">
+            </div>
+            <div class="product-info">
+              <h3>Sprite + Popping Boba</h3>
+              <p>Perpaduan rasa soda dingin menyegarkan dengan kejutan popping boba rasa buah yang meletus di mulut.</p>
+              <div class="product-bottom">
+                <span class="price">Rp 12.000</span>
+                <a href="#order" class="btn btn-sm">Order PO</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="product-card">
+            <div class="product-badge">Milk Tea Series</div>
+            <div class="product-img-wrapper">
+              <img src="image/products/milktea.png" alt="Milktea + Popping Boba" class="product-img">
+            </div>
+            <div class="product-info">
+              <h3>Milktea + Popping Boba</h3>
+              <p>Milk tea creamy dan gurih lembut yang dipadukan sempurna dengan sensasi asam-manis popping boba.</p>
+              <div class="product-bottom">
+                <span class="price">Rp 12.000</span>
+                <a href="#order" class="btn btn-sm">Order PO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification / Legal Section -->
+    <!-- Section Legalitas & Sertifikasi -->
+    <section id="legalitas" class="cert-section">
+      <div class="container">
+        <div class="cert-box">
+          <h2 class="section-title text-center">Legalitas & Kualitas Terjamin 📑</h2>
+          <p class="text-center">Kami berkomitmen menyajikan minuman higienis, aman, dan terdaftar resmi untuk
+            kenyamanan Blastist!</p>
+
+          <div class="cert-grid">
+            <!-- Kartu Legalitas 1 -->
+            <div class="cert-card">
+              <div class="cert-img-wrapper">
+                <img src="image/legal/nib.png" alt="Sertifikat NIB Pop Blast" class="cert-img">
+              </div>
+              <h3>Nomor Induk Berusaha (NIB)</h3>
+              <p>Izin usaha resmi terdaftar untuk menjamin legalitas dan kejelasan operasional.</p>
+            </div>
+
+            <!-- Kartu Legalitas 2 -->
+            <div class="cert-card">
+              <div class="cert-img-wrapper">
+                <img src="image/legal/halal.png" alt="Sertifikat Halal Pop Blast" class="cert-img">
+              </div>
+              <h3>Sertifikasi Halal</h3>
+              <p>Jaminan seluruh bahan baku alami dan proses racikan 100% halal serta higienis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimoni" class="testimonial-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Apa Kata Blastist? 💬</h2>
+          <p class="section-desc">Ulasan jujur dari teman-teman konsumen yang sudah coba Pop Blast!</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <!-- Testi 1 -->
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Popping bobanya beneran meletus pas dikunyah! Harganya 10rb pas banget buat kantong
+              mahasiswa."</p>
+            <div class="testi-user">
+              <strong>Jannet A</strong>
+              <span>Mahasiswi IPB</span>
+            </div>
+          </div>
+
+          <!-- Testi 2 -->
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Kemasan direct-sip lid nya praktis banget! Gak rawan tumpah pas dibawa jalan ke ruang
+              kuliah."</p>
+            <div class="testi-user">
+              <strong>Rifqy</strong>
+              <span>Pemuda Mesjid</span>
+            </div>
+          </div>
+
+          <!-- Testi 3 -->
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Suka banget varian Milktea + Popping! Rasa manisnya pas, gak bikin enek sama sekali."
+            </p>
+            <div class="testi-user">
+              <strong>Nabila S.</strong>
+              <span>Blastist Bogor</span>
+            </div>
+          </div>
+
+          <!-- Testi 4 -->
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Seger banget yang Sprite + Popping diminum pas siang panas kampus. Fix bakal order
+              lagi!"</p>
+            <div class="testi-user">
+              <strong>Fadhil M.</strong>
+              <span>Mahasiswa Peikanan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order CTA Section -->
+    <section id="order" class="order-section">
+      <div class="container">
+        <div class="order-card">
+          <h2>Siap Coba Sensasi Pop Blast? 🚀</h2>
+          <p>Amankan kuota Pre-Order kamu sekarang lewat Google Form resmi kami!</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSekdnCDivDGs7aI0ETaKm7l5TOCDrcehOOtV5KXdVwEA7NdeA/viewform"
+            target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-order">
+            📝 Klik Untuk Order via Google Form
+          </a>
+          <span class="order-note">*Pengiriman & COD area kampus IPB & sekitarnya</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Documentation Carousel Section -->
+    <section id="dokumentasi" class="docs-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Dokumentasi Kegiatan 📸</h2>
+          <p class="section-desc">Keseruan operasional, mentoring, dan riset Pop Blast!</p>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div class="carousel-track" id="carouselTrack">
+            <!-- Slide 1 -->
+            <div class="carousel-slide">
+              <img src="image/docs/dok-rnd.png" alt="Dokumentasi Live Report Booth Pop Blast" class="carousel-img">
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-tag">RISET AND DEVELOPMENT</span>
+                <h3>Proses Menemukan Kompisisi Terbaik </h3>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+              <img src="image/docs/dok-order.png" alt="Dokumentasi Persiapan Pre-Order" class="carousel-img">
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-tag">PRE-ORDER DAY</span>
+                <h3>Proses Pemesanan, Pembuatan, dan Pengantaran Pop Blast</h3>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+              <img src="image/docs/dok-mentor.png" alt="Dokumentasi Tim Operasional" class="carousel-img">
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-tag">MENTORING</span>
+                <h3>Keseruan Mentoring Bersama Owner Dehaga</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prevBtn" aria-label="Sebelumnya">❮</button>
+            <button class="carousel-btn" id="nextBtn" aria-label="Berikutnya">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section -->
+    <!-- Team Section -->
+    <section id="tim" class="team-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Tim Hebat di Balik Pop Blast 👥</h2>
+          <p class="section-desc">Kelompok 7 Agribisnis IPB University</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Member 1 -->
+          <div class="team-card">
+            <div class="team-avatar-wrapper">
+              <img src="image/team/bintang.jpg" alt="Muhammad Bintang" class="team-img">
+            </div>
+            <h3>Muhammad Bintang</h3>
+            <span class="team-role">Chief Executive Officer (CEO)</span>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-card">
+            <div class="team-avatar-wrapper">
+              <img src="image/team/ima.jpg" alt="Ima Rifatu Darojat" class="team-img">
+            </div>
+            <h3>Ima Rifatu Darojat</h3>
+            <span class="team-role">Chief Operating Officer (COO)</span>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-card">
+            <div class="team-avatar-wrapper">
+              <img src="image/team/muthia.jpg" alt="Muthia Raihana" class="team-img">
+            </div>
+            <h3>Muthia Raihana</h3>
+            <span class="team-role">Chief Marketing Officer (CMO)</span>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="team-card">
+            <div class="team-avatar-wrapper">
+              <img src="image/team/allisya.jpg" alt="Allisya Wulandari" class="team-img">
+            </div>
+            <h3>Allisya Wulandari</h3>
+            <span class="team-role">Chief Financial Officer (CFO)</span>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="team-card">
+            <div class="team-avatar-wrapper">
+              <img src="image/team/rafiq.jpg" alt="Rafiq Hariri" class="team-img">
+            </div>
+            <h3>Rafiq Hariri</h3>
+            <span class="team-role">Chief Teclonogy Officer (CTO)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <h3>POP BLAST</h3>
+          <p>A Little Pop In Every Sip ✨</p>
+        </div>
+        <div class="footer-social">
+          <span>Follow us on Instagram:</span>
+          <a href="https://instagram.com/heypopblast" target="_blank" rel="noopener noreferrer">@heypopblast</a>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2026 POP BLAST. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
